@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+footer {
+    background-image: url(../Images/footer-background.png);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+
+.u-align-right {
+    text-align: right;
+}
+
+.u-align-left {
+    padding-left: 0 !important;
+}
+
+.u-header-background {
+    padding-top:1%;
+    background-image: url(../Images/background.png);
+    background-repeat: repeat-x;
+    height:auto;
+}
+
+.ContNavBar{
+    padding: 2% 0 0 0;
+}
+
+#navbar ul li {
+    border-left: 1px dotted black;
+}
+
+.header{
+    padding: 0 0 4% 0;
+}
+
+.carusel{
+    padding: 0 0 2% 0;
+}
+
+.maintitle{
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0 0 1.5% 0;
+}
+.information{
+    padding: 2% 0 4% 0;
+}
+
+.title{
+    color: teal;
+    font-size: 130%;
+    padding: 0 0 1% 0
+}
+
+.subtitle{
+    color: #A4A4A4;
+    font-size: 80%;
+    padding: 0 0 4% 0;
+}
+
+.imageinformation{
+    width: 100%;
+    height: auto;
+    padding: 0 0 3% 0;
+}
+
+.txtinformation{
+    font-size: 122%;
+    padding: 0 0 7% 0;
+}
+
+.btn-learmore{
+    margin-bottom: 5%;
+    text-align: left;
+    color: #088A85;
+    width: 55%;
+    background: -moz-linear-gradient(left, #E6E6E6 20% , white 30%, #E6E6E6 50%);
+    background: -webkit-linear-gradient(left, #E6E6E6 20% , white 30%, #E6E6E6 50%);
+    background: -moz-linear-gradient(left, #E6E6E6 20% , white 30%, #E6E6E6 50%);
+    background: -o-linear-gradient(left, #E6E6E6 20% , white 30%, #E6E6E6 50%);
+    background: linear-gradient(left, #E6E6E6 20% , white 30%, #E6E6E6 50%);
+}
+
+.separator img{
+    width: 100%;
+    padding: 0 0 3% 0;
+}
+
+.borderdashed{
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.socialtitle{
+    font-size: 122%;
+    padding: 0 0 1% 0;
+}
+
+.socialinformation{
+    padding: 2% 0 2% 0;
+}
+
+.socialinformation p{
+    font-size: 102%;
+}
+
+.icons{
+    padding: 0 0 12% 0;
+}
+
+.socialicons li{
+    text-align: center;
+    display: inline-table;
+    width: 17%;
+}
+
+.input{
+    width: 92%;
+}
+
+.btnsubscribe{
+    text-align: left;
+    width: 54%;
+    background: -moz-linear-gradient(left, #084B8A 20% , #045FB4 35%,#084B8A 45%);
+    background: -webkit-linear-gradient(left, #084B8A 20% , #045FB4 35%,#084B8A 45%);
+    background: -moz-linear-gradient(left, #084B8A 20% , #045FB4 35%,#084B8A 45%);
+    background: -o-linear-gradient(left, #084B8A 20% , #045FB4 35%,#084B8A 45%);
+    background: linear-gradient(left, #084B8A 20% , #045FB4 35%,#084B8A 45%);
+}
+
+.formname{
+    padding: 3% 0 0 0;
+}
+
+.message{
+    height: 140px;
+}
+
+.update1{
+    padding: 3% 0 3.5% 0;
+}
+
+.informationupdate1{
+    font-size: 80%;
+}
+
+.update2{
+    padding: 3% 0 3.5% 0 ;
+}
+
+.informationupdate2{
+    font-size: 83%;
+}
+
+.update3{
+    padding: 3% 0 3.5% 0;
+}
+
+.buttonvisit{
+    padding: 4.1% 0 0 0;
+}
+
+.footer{
+    padding-top: 4%;
+}
+
+.footerinformation div div p{
+    font-size: 80%;
+}
+
+.navbarfooter li{
+    float: left;
+}
+
+.navbarfooter li a{
+    text-decoration: none;
+    color: white;
+    font-size: 70%;
+}
+
+
+.navbar-nav > li > a {
+    font-family: sans-serif !important;
+}
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 767px) {
+        .btn-learmore {
+            margin-bottom: 0;
+        }
+    }
+
+    @media only screen and (min-width : 768px) {
+        .btn-learmore {
+            margin-bottom: 0;
+        }
+        .footer{
+            padding-top: 5%;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .btn-learmore {
+            margin-bottom: 0;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        .btn-learmore {
+            margin-bottom: 0;
+        }
+    }
